@@ -1,0 +1,64 @@
+body {
+    background: rgb(212, 112, 223);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Playpen Sans", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(80, 9, 88);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(88, 11, 97);
+    font-style: italic;
+}
+
+.chamada {
+    background: rgb(221, 144, 230);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria-de-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-de-videos img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-de-videos img:hover {
+    opacity: 1.0;
+    border: 1px slateblue;
+}
+
+.categoria h2 {
+    color: rgb(80, 9, 88);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
